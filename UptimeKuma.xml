@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2022-12-17</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>Uptime Kuma</Name>
+  <Project>https://github.com/louislam/uptime-kuma</Project>
+  
+</Changes>
+  <Overview>
+    Uptime Kuma
+  </Overview>
+  <Description>
+     Uptime Kuma
+  </Description>
+  <Registry>https://github.com/louislam/uptime-kuma</Registry>
+  <GitHub>https://github.com/louislam/uptime-kuma</GitHub>
+  <Repository>louislam.uptime-kuma</Repository>
+  <Support>https://github.com/louislam/uptime-kuma</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/UptimeKuma</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:3001]/web/index.html</WebUI>
+  <Banner></Banner>
+  <Icon>https://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+</Containers>
